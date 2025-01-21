@@ -8,7 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Label } from "@/components/ui/label"
 
 const DEFAULT_USERNAME = "user"
-const DEFAULT_PASSWORD = "password"
+const DEFAULT_PASSWORD = "user123"
 
 export function LoginForm() {
   const { login } = useUser()
@@ -56,7 +56,7 @@ export function LoginForm() {
           <Button type="submit" className="w-full">Login</Button>
         </form>
         <div className="mt-4 text-sm text-muted-foreground">
-          Default credentials: user / password
+          Username: user, Password : user123
         </div>
       </CardContent>
     </Card>
