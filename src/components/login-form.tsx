@@ -56,7 +56,7 @@ export function LoginForm() {
           <Button type="submit" className="w-full">Login</Button>
         </form>
         <div className="mt-4 text-sm text-muted-foreground">
-          Username: user, Password : user123
+          Username: user | Password : user123
         </div>
       </CardContent>
     </Card>
